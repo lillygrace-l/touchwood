@@ -35,7 +35,7 @@ It's for anyone whose thumb opens a feed before their brain has decided to, whic
 
 ## Demo
 
-**Try it on your phone: [touchwood.vercel.app](https://touchwood.vercel.app/)**
+**Try it on your phone: [https://touchwood-7q5r.onrender.com/](https://touchwood-7q5r.onrender.com/)**
 
 Open it in your phone's browser, allow location and camera, and tap **Find me a quest**. Add it to your home screen to install it. After the first photo check, the vision model is cached and works without signal.
 

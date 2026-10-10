@@ -6,7 +6,7 @@ import { verifyCode, newSecret } from './otp.js';
 const DEFAULTS = {
   sites: ['x.com', 'twitter.com', 'reddit.com', 'instagram.com', 'tiktok.com', 'facebook.com', 'youtube.com'],
   unlockMinutes: 30,
-  appUrl: 'https://touchwood.vercel.app/',
+  appUrl: 'https://touchwood-7q5r.onrender.com/',
   secret: '',
   unlockUntil: 0,
   usedCodes: [],
