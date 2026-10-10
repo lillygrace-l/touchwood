@@ -20,7 +20,7 @@ The screen is only the lock. Everything that counts happens outside.
 
 | Today | Quest complete | Field journal |
 |:---:|:---:|:---:|
-| ![Touchwood home screen: a sunny autumn landscape, "6h 9m of daylight left", a 5-day streak, and collected field stamps](app/screenshots/today.jpg) | ![Quest complete: a 6-digit unlock code with a countdown, a "5-day streak" chip, and the photo of a dog running on grass](app/screenshots/quest-complete.jpg) | ![Field journal: a grid of quest photos saved on the phone](app/screenshots/journal.jpg) |
+| ![Touchwood home screen: a sunny autumn landscape, "6h 9m of daylight left", a 5-day streak, and collected field stamps](app/screenshots/today.png) | ![Quest complete: a 6-digit unlock code with a countdown, a "5-day streak" chip, and the photo of a dog running on grass](app/screenshots/quest-complete.png) | ![Field journal: a grid of quest photos saved on the phone](app/screenshots/journal.png) |
 
 It's for anyone whose thumb opens a feed before their brain has decided to, which is me. A few things make it more than a gimmick:
 
@@ -31,7 +31,7 @@ It's for anyone whose thumb opens a feed before their brain has decided to, whic
 - **A home screen that follows the real sky.** The landscape changes with the time of day and season, with a line like "2h 10m of daylight left · sunset 6:44 PM", worked out on the device.
 - **The blocked page keeps count:** "Try #7 today." Seeing that number does more than any timer did for me.
 
-![The browser extension's blocked page: "x.com is behind the gate. Go touch grass.", a "Try #7 today" badge, three steps, and a box for the 6-digit unlock code](app/screenshots/blocked-page.jpg)
+![The browser extension's blocked page: "x.com is behind the gate. Go touch grass.", a "Try #7 today" badge, three steps, and a box for the 6-digit unlock code](app/screenshots/blocked-page.png)
 
 ## Demo
 
@@ -88,7 +88,7 @@ With 18 decoys ("sand", "a pavement", "an animal", "a book"…), all 7 of my sam
 
 The app shows its working, too. Under every result, "What the on-device model saw" lists the real scores. Here, "an animal" is CLIP's top guess, but grass still ranks #2 and clears the margin easily:
 
-<img src="app/screenshots/model-scores.jpg" alt="The 'What the on-device model saw' panel: Outdoors 58%, Match for grass 92%, and CLIP's top guesses: an animal 25%, grass 18%, a lawn 11%, a person 6%" width="360">
+<img src="app/screenshots/model-scores.png" alt="The 'What the on-device model saw' panel: Outdoors 58%, Match for grass 92%, and CLIP's top guesses: an animal 25%, grass 18%, a lawn 11%, a person 6%" width="360">
 
 **2. OpenStreetMap via the Overpass API: the quest-giver.** A single Overpass query pulls trees, water, parks, woods, benches, playgrounds, viewpoints and public art within your chosen radius. Quests are at least 120 m away so you actually walk, and the last map is cached so it keeps working without signal. If nothing is mapped nearby, or you're offline, you get "anywhere" quests: sky, leaf, flower, grass.
 
